@@ -1,0 +1,39 @@
+/* Dark mode styles */
+.register-container {
+  background-color: #333; /* dark background color */
+  color: white; /* text color */
+  padding: 20px; /* padding around the container */
+  margin-top: 20px; /* space from the top */
+  border-radius: 8px; /* rounded corners */
+  width: 300px; /* width of the form container */
+  margin: 20px auto; /* center the form horizontally */
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  margin-bottom: 8px; /* space below labels */
+}
+
+.register-form input {
+  padding: 8px;
+  margin-bottom: 16px; /* space below inputs */
+  border: 1px solid #555; /* border color */
+  border-radius: 4px; /* rounded corners for inputs */
+}
+
+.register-form button {
+  padding: 10px;
+  background-color: #555; /* button background color */
+  color: white; /* button text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px; /* rounded corners for button */
+}
+
+.register-form button:hover {
+  background-color: #777; /* darker background color on hover */
+}
